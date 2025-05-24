@@ -15,15 +15,15 @@ const IMAGES = {
   normal: [
     {
       id: 1,
-      url: "https://rjzdhlvuuafqvgoyticm.supabase.co/functions/v1/getCORSImage?image=building.jpg",
-      // thumbnail: "https://rjzdhlvuuafqvgoyticm.supabase.co/functions/v1/getCORSImage?image=building.jpg",
+      url: "https://bcjohn-cors-static.s3.ap-southeast-2.amazonaws.com/building.jpg",
+      // thumbnail: "https://bcjohn-cors-static.s3.ap-southeast-2.amazonaws.com/building.jpg",
       alt: "White concrete building",
       filename: "building.jpg"
     },
     {
       id: 2,
-      url: "https://rjzdhlvuuafqvgoyticm.supabase.co/functions/v1/getCORSImage?image=ox.jpg",
-      // thumbnail: "https://rjzdhlvuuafqvgoyticm.supabase.co/functions/v1/getCORSImage?image=ox.jpg",
+      url: "https://bcjohn-cors-static.s3.ap-southeast-2.amazonaws.com/ox.jpg",
+      // thumbnail: "https://bcjohn-cors-static.s3.ap-southeast-2.amazonaws.com/ox.jpg",
       alt: "Brown ox on mountain",
       filename: "ox.jpg"
     }
@@ -31,15 +31,15 @@ const IMAGES = {
   vary: [
     {
       id: 1,
-      url: "https://rjzdhlvuuafqvgoyticm.supabase.co/functions/v1/getCORSImage?image=building.jpg&vary=origin",
-      // thumbnail: "https://rjzdhlvuuafqvgoyticm.supabase.co/functions/v1/getCORSImage?image=building.jpg&vary=origin",
+      url: "https://bcjohn-cors-static.s3.ap-southeast-2.amazonaws.com/building.jpg&vary=origin",
+      // thumbnail: "https://bcjohn-cors-static.s3.ap-southeast-2.amazonaws.com/building.jpg&vary=origin",
       alt: "White concrete building",
       filename: "building.jpg"
     },
     {
       id: 2,
-      url: "https://rjzdhlvuuafqvgoyticm.supabase.co/functions/v1/getCORSImage?image=ox.jpg&vary=origin",
-      // thumbnail: "https://rjzdhlvuuafqvgoyticm.supabase.co/functions/v1/getCORSImage?image=ox.jpg&vary=origin",
+      url: "https://bcjohn-cors-static.s3.ap-southeast-2.amazonaws.com/ox.jpg&vary=origin",
+      // thumbnail: "https://bcjohn-cors-static.s3.ap-southeast-2.amazonaws.com/ox.jpg&vary=origin",
       alt: "Brown ox on mountain",
       filename: "ox.jpg"
     }
